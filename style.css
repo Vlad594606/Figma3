@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+.wrapper {
+    width: 1110px;
+}
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F6F1;
+}
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+}
+img {
+    margin: 0;
+
+}
+body{
+    font-family: Montserrat;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F9F6F1;
+    padding-top: 50px;
+}
+.for {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gender {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+.arrow {
+    display: flex;
+    align-items: center;
+    width: 0;
+    height: 0;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 3px solid #212121;
+    margin: 0 35px 0 5px;
+}
+.theloop {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 90px;
+}
+.logo {
+    margin: 0 20px 0 90px;
+}
+.basket {
+    margin: 0 16px 0 100px;
+}
+.pay {
+    margin-right:35px ;
+}
+.sale {
+    display: flex;
+    justify-content: space-between;
+    height: 380px;
+    margin: 174px 0 133px 0;
+}
+.winter:first-child {
+    font-weight:400 ;
+    font-size: 30px;
+}
+.winter p:first-child {
+    font-weight: 400;
+    font-size: 30px;
+}
+.discount {
+    font-weight: 700;
+    font-size: 55px;
+    margin: 35px 0 55px 0;
+}
+.sale button {
+    color: white;
+    background-color: #D7B399;
+    height: 55px;
+    width: 240px;
+    font-weight: 400;
+    font-size: 16px;
+    border: 0;
+}
+.boot {
+    height: 377px;
+    text-align: right;
+}
+.bootimg {
+    background-position:right  ;
+    background-repeat: no-repeat;
+    background-image: url(./picture/boot.svg);
+}
+.boot p:first-child {
+    text-decoration-line: line-through;
+    font-weight: 700;
+    font-size: 24px;
+}
+.boot p:last-child {
+    color: #D84033;
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 14px;
+}
+.free {
+    background-color: #212121;
+    color: white;
+    text-align: center;
+}
+.free p:first-child {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 80px 0 23px 0;
+}
+.price {
+    font-weight: 400;
+}
+.free p:last-child {
+    font-weight: 300;
+    font-size: 21px;
+    padding-bottom: 70px;
+}
+.collection {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+.clothes1 {
+    background-image: url(./picture/man.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-right: 35px;
+}
+.collection p:first-child {
+    font-weight: 700;
+    font-size: 24px;
+    padding: 60px 168px 25px 0 ;
+}
+.collection span {
+    font-weight: 500;
+}
+.collection p:last-child {
+    font-weight: 300;
+    font-size: 16px;
+}
+.collection button {
+    width: 80px;
+    height: 30px;
+    background-color: #D7B399;
+    border: 0;
+    color: white;
+    margin: 40px 0 58px 0;
+}
+.clothes2 {
+    background-image: url(./picture/wooman.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.models {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
+.models img {
+    width: 255px;
+    height:345px;
+}
+.models div:first-child {
+    margin: 150px 0 103px 0;
+}
+.models p:first-child {
+    font-weight: 700;
+    font-size: 36px;
+}
+.models button {
+    background-color: #D7B399;
+    color: white;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+    height: 55px;
+    width: 220px;
+    margin: 103px 0 152px 0;
+}
+.aboutCompany {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white ;
+}
+.logoFoot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 73px 223px 198px 0;
+}
+.logoFoot p {
+    font-weight: 700;
+    font-size: 24px;
+}
+.links p:first-child {
+    font-size: 10px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.links p:not(:first-child) {
+    font-size: 14px;
+    font-weight: 400;
+    color: #CBCFD4;
+    padding-bottom:10px ;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.social div {
+    display: flex;
+    justify-content: center;
+}
+.main {
+    margin: 80px 84px 80px 0;
+}
+.cat {
+    margin: 80px 76px 80px 0;
+}
+.use {
+    margin: 80px 53px 112px 0;
+}
+.social {
+    margin: 80px 0 112px 0;
+}
+.social img {
+    padding: 0 0 8px 0;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding:30px 0 30px 0 ;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 400;
+}
